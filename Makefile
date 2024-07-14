@@ -12,3 +12,7 @@ test-run:
 e2e-test:
 	bash tests/run-api-tests.sh
 
+
+.PHONY: run
+run:
+	docker compose up
